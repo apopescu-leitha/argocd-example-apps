@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: busybox:latest
+        - image: ghcr.io/knative-sandbox/helloworld-go:latest
           name: guestbook-ui
           ports:
             - containerPort: 80
