@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-        - image: docker.io/caddy:latest
+        - image: quay.io/quay/busybox:latest
           name: guestbook-ui
           ports:
             - containerPort: 80
